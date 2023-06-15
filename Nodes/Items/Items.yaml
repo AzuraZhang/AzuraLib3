@@ -18,3 +18,21 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 110.0
+- Name: Panel1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Panel1
+    Id: g=a10fa720b49304ba57d4ec87b0122b58
+    Supertype: Panel
+    ReferenceType: HasComponent
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
